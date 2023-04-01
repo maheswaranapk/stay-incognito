@@ -1,0 +1,12 @@
+.loader-sticky {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader-parent {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+}

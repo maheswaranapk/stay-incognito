@@ -1,0 +1,116 @@
+@import "../../../styles/variables";
+
+.connect-panel-mobile {
+  .title {
+    font-family: "Dosis", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: $primary;
+  }
+
+  .sub-title {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #1c1e21;
+  }
+
+  .note {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #1c1e21;
+  }
+
+  .btn-outline-primary {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+  }
+
+  .input-message {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #1c1e21;
+  }
+}
+
+.connect-panel {
+  background: linear-gradient(75deg, #f0f2f5 50%, #ffffff 20%);
+  .title {
+    font-family: "Dosis", sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: $primary;
+  }
+
+  .sub-title {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #1c1e21;
+  }
+
+  .input-message {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #1c1e21;
+  }
+  .input-group {
+    width: 90%;
+
+    .btn-outline-primary {
+      border-top-right-radius: 0.25rem !important;
+      border-bottom-right-radius: 0.25rem !important;
+    }
+  }
+
+  .input-message-hint {
+    font-size: 12px;
+  }
+
+  .feature-panel {
+    .feature {
+      .feature-icon {
+        width: 100px;
+        height: 100px;
+        background: $primary;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        i {
+          font-size: 45px;
+          color: white;
+        }
+      }
+
+      .fetaure-text {
+        font-size: 1.2rem;
+        font-family: "Dosis", sans-serif;
+        color: $primary;
+        text-align: center;
+        margin-top: 0.5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        .feature-icon {
+          background: white;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: solid 2px $primary;
+
+          i {
+            font-size: 45px;
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}

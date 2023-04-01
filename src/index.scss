@@ -1,0 +1,64 @@
+@import "./styles/variables";
+@import "bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container,
+.container-fluid {
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
+.column {
+  min-height: 96vh;
+  max-height: 96vh;
+  min-height: calc(var(--vh, 1vh) * 96);
+  min-height: calc(var(--vh, 1vh) * 96);
+  margin: 2vh 0 0 0;
+  margin: calc(var(--vh, 1vh) * 2) 0 0 0;
+}
+
+.btn {
+  &:focus {
+    box-shadow: unset !important;
+  }
+}
+
+.modal {
+  color: #1c1e21;
+}
+
+.modal-header {
+  padding-bottom: 0;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-body {
+  // padding-top: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: none;
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

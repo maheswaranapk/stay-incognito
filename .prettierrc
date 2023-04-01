@@ -1,0 +1,9 @@
+{
+    "trailingComma": "all",
+    "singleQuote": true,
+    "endOfLine":"auto",
+    "jsonRecursiveSort": "true",
+    "scripts": {
+        "format": "prettier --write"
+      }
+}

@@ -1,0 +1,50 @@
+@import "../../../styles/variables";
+
+.side-panel {
+  overflow: hidden;
+
+  .attachment-header {
+    color: rgba(0, 0, 0, 0.34);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .badge-dark {
+    background: $primary;
+    color: white;
+  }
+
+  .badge-light {
+    background: #e4e6eb;
+    color: #1c1e21;
+  }
+
+  .list-panel {
+    max-width: 500px;
+  }
+
+  .list-container {
+    overflow: scroll;
+    max-width: 500px;
+    // padding-top: 380px;
+  }
+
+  .initial-indicator {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    color: $primary;
+    font-size: 45px;
+    background-color: #e4e6eb;
+    text-align: center;
+  }
+
+  .my-name {
+    font-size: 24px;
+    color: $primary;
+    font-weight: 500;
+    text-align: center;
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+
+.document-parent {
+  font-size: 1rem;
+  color: rgb(0, 153, 255);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .fa-arrow-alt-circle-down {
+    font-size: 1.2rem;
+    color: rgb(0, 153, 255);
+  }
+  .fa-file {
+    font-size: 2rem;
+    padding-left: 1rem;
+  }
+}
