@@ -20,7 +20,6 @@ body {
   min-height: 96vh;
   max-height: 96vh;
   min-height: calc(var(--vh, 1vh) * 96);
-  min-height: calc(var(--vh, 1vh) * 96);
   margin: 2vh 0 0 0;
   margin: calc(var(--vh, 1vh) * 2) 0 0 0;
 }

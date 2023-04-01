@@ -9,7 +9,7 @@ const Credit: FC<{}> = () => (
     </span>
     <span>
       by{' '}
-      <a href="http://appybot.in" rel="noopener noreferrer" target="_blank">
+      <a href="https://appybot.in" rel="noopener noreferrer" target="_blank">
         AppyBot.in
       </a>
     </span>
